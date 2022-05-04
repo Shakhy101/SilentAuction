@@ -15,7 +15,6 @@ def find_winning_bidder(all_bids):
             winner = bidder
     print(f"The highest bid was {highest_bid} and the winner is {winner}.")
 
-# pokus
 while not bidding_ended:
     name = input("What is your name? ")
     price = int(input("What is your bid: $"))
